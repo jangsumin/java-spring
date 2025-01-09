@@ -122,7 +122,7 @@ public class ArticleForm {
 
 DB에 자바로 명령을 내리려면 **JPA(Java Persistence API)**를 사용할 수 있다! JPA를 사용하면 좋은 점은, 데이터를 객체 지향적으로 관리할 수 있다는 점이다.
 
-> [!IMPORTNAT]
+> [!IMPORTANT]
 > JPA의 핵심 도구로는 엔티티(Entity)와 레포지토리(Repository)가 있다. 엔티티는 자바 객체를 DB가 이해할 수 있게 만든 것으로, 이를 기반으로 테이블이 만들어진다. 레포지토리는 엔티티가 DB 속 테이블에 저장 및 관리될 수 있게 하는 인터페이스다.
 
 DTO를 데이터베이스가 이해할 수 있는 엔티티로 변환해보자. 여기서 유념해야 할 것은 DTO 클래스와 별개로 엔티티 클래스가 따로 필요한 것과 DTO인 ArticleForm을 엔티티로 변환하기 위해서 toEntity()라는 메서드가 필요하다는 점이다.
