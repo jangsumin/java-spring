@@ -40,7 +40,7 @@ JSON의 예시를 하나 들자면,
 
 ![screenshot_1](./screenshot_1.png)
 
-데이터의 조회를 요청할 떄는 method의 속성 값으로 GET을 써야 하는데 fetch 문에는 그런 흔적이 없다. 그 이유는 GET은 method 속성의 기본값이라서 생략해도 되기 떄문이다.
+데이터의 조회를 요청할 떄는 method의 속성 값으로 GET을 써야 하는데 fetch 문에는 그런 흔적이 없다. 그 이유는 GET은 method 속성의 기본값이라서 생략해도 되기 때문이다.
 
 ![screenshot_2](./screenshot_2.png)
 
@@ -48,7 +48,7 @@ JSON의 예시를 하나 들자면,
 
 그 후에 Updating a resource, 그리고 Patching a resource라는 각각의 제목으로 두 예시가 있는데 게시글을 수정한다는 점에서 의미는 유사하지만 PUT과 PATCH라는 메서드 차이가 있다.
 
-> [!CAUTION] > `PUT`은 기존 데이터를 전부 새 내용으로 변경한다. 만약 기존 데이터가 없다면 새로 생성한다. `PATCH`는 기존 데이터 중에서 일부만 새 내용으로 변경한다.
+> [!IMPORTANT] > `PUT`은 기존 데이터를 전부 새 내용으로 변경한다. 만약 기존 데이터가 없다면 새로 생성한다. `PATCH`는 기존 데이터 중에서 일부만 새 내용으로 변경한다.
 
 마지막으로 데이터 삭제 요청에는 DELETE 메서드를 사용한다.
 
