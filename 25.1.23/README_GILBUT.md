@@ -106,7 +106,8 @@ update(수정) 과정은 신경써야 할 부분이 있다.
 
 그래서 반환형을 `ResponseEntity<Article>`로 해야 한다.
 
-> [!NOTE] > **ResponseEntity** 는 REST 컨트롤러의 반환형, 즉 REST API의 응답을 위해 사용하는 클래스이다. REST API의 요청을 받아 응답할 때 클래스에 HTTP 상태 코드, 헤더, 본문을 담아 보낼 수 있다. **HttpStatus** 는 HTTP 상태 코드를 관리하는 클래스로 다양한 Enum 타입과 관련한 메서드를 가지고 있다.
+> [!NOTE]
+> 클래스 **ResponseEntity** 는 REST 컨트롤러의 반환형, 즉 REST API의 응답을 위해 사용하는 클래스이다. REST API의 요청을 받아 응답할 때 클래스에 HTTP 상태 코드, 헤더, 본문을 담아 보낼 수 있다. **HttpStatus** 는 HTTP 상태 코드를 관리하는 클래스로 다양한 Enum 타입과 관련한 메서드를 가지고 있다.
 
 ❌ 하지만, 위 코드는 일부 데이터를 수정할 때는 기존 데이터의 일부 필드를 null로 대체할 위험이 있다. ❌
 
