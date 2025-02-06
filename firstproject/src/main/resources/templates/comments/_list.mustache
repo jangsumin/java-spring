@@ -77,7 +77,6 @@
         // 수정 완료 버튼 선택
         const commentUpdateBtn = document.querySelector("#comment-update-btn");
         commentUpdateBtn.addEventListener("click", function () {
-            event.stopPropagation();
             const comment = {
                 id: document.querySelector("#edit-comment-id").value,
                 nickname: document.querySelector("#edit-comment-nickname").value,
